@@ -1,0 +1,37 @@
+.skillSection {
+    padding-top: 60px;    
+    padding-bottom: 60px;
+}
+
+.skillCardContainer {  
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .skillSection {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .skillCardContainer {  
+        padding: 10px;
+        width: 100%;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+@media only screen and (max-width: 360px) { 
+    .skillCardContainer {  
+        padding: 5px;
+        width: 100%;
+        grid-template-columns: 50% 50%;
+    }
+
+    .skillCardContainer div:last-child {  
+        grid-column: 1 / 3;
+    }
+}

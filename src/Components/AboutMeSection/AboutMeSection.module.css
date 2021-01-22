@@ -1,0 +1,69 @@
+.aboutMeSection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.aboutMeSection .aboutMeContainer {
+    display: flex;
+}
+
+.aboutMeSection .imageContainer {
+    width: 20%;
+    max-width: 200px;
+    margin-right: 25px;
+}
+
+.aboutMeSection .imageContainer img {
+    width: 100%;
+    border: 2px solid #777;    
+    border-radius: 10px;
+}
+
+.aboutMeContainer .paragraph {
+    padding: 5px;
+    width: 70%;
+    word-break: break-all;
+}
+
+@media only screen and (max-width: 900px) {
+    .aboutMeSection {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 95%;
+        min-height: 50vh;
+        margin: 0 auto;
+    }
+
+    .aboutMeSection .aboutMeContainer {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMeContainer .paragraph {
+        font-size: 1.1rem;
+        padding: 5px;
+        width: 90%;
+        word-break: break-all;
+    }
+
+    .aboutMeSection .imageContainer {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .aboutMeContainer .paragraph {
+        font-size: 0.9rem;        
+    } 
+
+    .aboutMeSection .imageContainer {
+        width: 50%;
+    }
+}

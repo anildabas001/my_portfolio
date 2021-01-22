@@ -1,0 +1,53 @@
+.sectionHeading {
+    font-weight: 300;
+    font-size: 3rem;
+    word-spacing: 1.1px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;   
+    text-transform: uppercase; 
+    margin-bottom: 80px;
+}
+
+.sectionHeading::after {
+    margin: 0 auto;
+    content: " ";
+    display: block;
+    background-color: #e67e22;
+    position: relative;
+    width: 220px;
+    height: 2px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .sectionHeading {        
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .sectionHeading {        
+        font-size: 2.8rem;        
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .sectionHeading {        
+        font-size: 2.0rem; 
+    }    
+
+    .sectionHeading::after {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .sectionHeading {        
+        font-size: 1.3rem; 
+    }    
+
+    .sectionHeading::after {
+        width: 30%;
+    }
+}

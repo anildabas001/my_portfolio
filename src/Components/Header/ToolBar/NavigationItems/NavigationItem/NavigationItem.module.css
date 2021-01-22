@@ -1,0 +1,86 @@
+.navItem {
+    padding-left: 70px;
+    list-style: none;
+}
+
+.navItem a,
+.navItem a:link,
+.navItem a:visited{
+    padding-bottom: 2px;
+    color: #222;
+    letter-spacing: 1px;
+    word-spacing: 1.2px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s all ease-in;
+}
+
+.navItem a:hover,
+.navItem a:active{  
+    color: #000;       
+    border-bottom: 2px solid #e67e22;    
+}
+
+@media (min-width: 1100px) and (max-width: 900px) {
+    .navItem {
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navItem {
+        padding-left: 0px;
+    }
+
+    .navItem a,
+    .navItem a:link,
+    .navItem a:visited{
+        font-size: 1rem;
+        letter-spacing: .8px;
+         word-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .navItem a,
+    .navItem a:link,
+    .navItem a:visited{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .navItem a,
+    .navItem a:link,
+    .navItem a:visited{
+        font-size: 0.7rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) { 
+    .portfolioHeader .portfolioHeader_heading {        
+        font-size: 1.5rem;        
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    .portfolioHeader .portfolioHeader_heading {        
+        font-size: 3.0rem;        
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .portfolioHeader .portfolioHeader_heading {        
+        font-size: 2.5rem;        
+    }
+}
+
+@media only screen and (max-width: 360px) { 
+    .portfolioHeader .portfolioHeader_heading {        
+        font-size: 1.5rem;        
+    }
+}

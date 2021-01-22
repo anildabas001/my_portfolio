@@ -1,0 +1,47 @@
+.sideBar {
+    position:fixed;
+    display: block;
+    top: 53.2px;
+    right: 0;
+    width: 80%;
+    max-width: 270px;
+    height: 100vh;
+    z-index: 100;
+    background-color: rgb(248,248,248, 0.99);
+    padding: 10px;
+    border-radius: 1px;
+    border-left: 2px solid #222;
+    transform: translateX(300px);
+    transition: transform 0.6s ease-out;
+}
+
+.openSideBar {
+    transform: translateX(0);
+}
+
+@media only screen and (min-width:900px) {
+    .sideBar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .sideBar {
+        width: 47%;    
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .sideBar {
+        width: 47%;        
+        font-size: .9rem;
+        top: 43.3px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .sideBar {
+        width: 54%; 
+    }
+}
+

@@ -1,0 +1,26 @@
+.button:link,
+ .button:visited,
+ .button{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.87rem;
+    text-align: center;
+    /* width: 146px; */
+    height: 40px;
+    border: 1px solid #e67e22;
+    border-radius: 50px;
+    cursor: pointer;
+    vertical-align: middle;
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1.2px;
+    color: #e67e22;
+    transition: 0.25s all ease-in-out;
+    margin: 10px;
+}
+
+.button:hover,
+.button:active{
+    background-color: #e67e22;
+    color: #fff;
+}

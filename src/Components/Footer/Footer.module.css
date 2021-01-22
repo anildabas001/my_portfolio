@@ -1,0 +1,30 @@
+.footerSection {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footerSection .contactLinks {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.footerSection .contactLinks img {
+    width: 45px;
+    padding-left:10px;
+}
+
+.footerSection p {
+    font-size: 0.7rem;    
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .footerSection .contactLinks img {
+        width: 39px;
+    }
+}

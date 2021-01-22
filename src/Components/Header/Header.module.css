@@ -1,0 +1,39 @@
+.portfolioHeader {
+    position: relative;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),url('../../assets/images/heroImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+.portfolioHeader .portfolioHeader_heading {
+    position: absolute;
+    font-size: 4.0rem;
+    font-weight: 300;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    .portfolioHeader .portfolioHeader_heading {        
+        font-size: 3.0rem;        
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .portfolioHeader .portfolioHeader_heading {        
+        font-size: 2.5rem;        
+    }
+}
+
+@media only screen and (max-width: 360px) { 
+    .portfolioHeader .portfolioHeader_heading {        
+        font-size: 1.5rem;        
+    }
+}

@@ -1,0 +1,157 @@
+.projectCard {
+    padding: 15px 0px;
+    height: 410px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(20,23,28,.25);
+}
+
+.projectCard h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.projectCard h3::after {
+    position: relative;
+    content: " ";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.projectImage {
+    width: 40%;
+    height: 240px;
+    border: 1px solid #777;    
+    margin-right: 25px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.projectInfo {
+    display: flex;
+}
+
+.projectCard .button {
+    display: flex;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+
+.projectImage img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: 1;      
+}
+
+.projectCard .description {
+    display: inline-block;
+    padding: 10px;
+    width: 60%;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 900px) {
+    .projectCard {
+        width: 95%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .projectInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectImage {
+        width: 60%;
+        height: 200px;
+        border: 1px solid #777;    
+        margin-right: 25px;
+        border-radius: 10px;
+        background-color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .projectCard .description {
+        display: inline-block;
+        padding: 10px;
+        width: 90%;
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+
+    .projectCard .button {        
+        justify-content: center;
+    }
+
+    .projectCard h3 {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .projectImage {
+        width: 80%;
+        height: 180px;        
+        margin-bottom: 10px;
+    }
+
+    .projectCard h3 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .projectCard .description {
+        display: inline-block;
+        padding: 10px;
+        width: 90%;
+        text-align: justify;
+        font-size: 0.9rem;
+    }
+
+    .projectCard .button {
+        width: 50%;
+        margin: 0 auto;          
+        flex-direction: column;      
+        justify-content: center;        
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    
+    .projectCard h3 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .projectCard .description {
+        display: inline-block;
+        padding: 10px;
+        width: 90%;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+
+    .projectCard .button {
+        width: 70%;
+        margin: 0 auto;          
+        flex-direction: column;      
+        justify-content: center;        
+    }
+}
