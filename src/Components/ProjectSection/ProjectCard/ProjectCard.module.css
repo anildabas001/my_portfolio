@@ -107,7 +107,7 @@
 
 @media only screen and (max-width: 550px) {
     .projectImage {
-        width: 80%;
+        width: 95%;
         height: 180px;     
         margin: 0 auto;   
         margin-bottom: 10px;
@@ -146,7 +146,7 @@
         padding: 10px;
         width: 90%;
         text-align: justify;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .projectCard .button {
