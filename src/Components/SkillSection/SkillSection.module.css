@@ -4,7 +4,7 @@
 }
 
 .skillCardContainer {  
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -13,7 +13,6 @@
 
 @media only screen and (max-width: 900px) {
     .skillSection {
-        padding-top: 40px;
         padding-bottom: 40px;
     }
 
@@ -26,12 +25,8 @@
 
 @media only screen and (max-width: 360px) { 
     .skillCardContainer {  
-        padding: 5px;
-        width: 100%;
-        grid-template-columns: 50% 50%;
+        padding: 2px;
+        width: 98%;
     }
 
-    .skillCardContainer div:last-child {  
-        grid-column: 1 / 3;
-    }
 }

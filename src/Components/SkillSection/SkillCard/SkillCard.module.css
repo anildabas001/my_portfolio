@@ -9,6 +9,7 @@
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(20,23,28,.25);
     transition: transform 100ms ease-out;
+    text-align: center;
 }
 
 .skillCard img {
@@ -41,14 +42,15 @@
 
 @media only screen and (max-width: 360px) { 
     .skillCard {
-        width: 96px;
-        height: 110px;
+        width: 80px;
+        height: 90px;
         text-align: center;
+        padding: 4px;
     }
 
     .skillCard img{
-        width: 60px;
-        height: 70px;
+        width: 35px;
+        height: 55px;
     }
 
     .skillCard p {

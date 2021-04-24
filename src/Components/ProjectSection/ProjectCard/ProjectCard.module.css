@@ -1,7 +1,7 @@
 .projectCard {
     padding: 15px 0px;
-    height: 410px;
-    width: 90%;
+    height: 330px;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
     background-color: #fff;
@@ -12,23 +12,23 @@
     text-align: center;
     font-size: 2.2rem;
     font-weight: 300;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .projectCard h3::after {
     position: relative;
     content: " ";
     display: block;
-    width: 50%;
+    width: 10%;
     height: 1px;
     background-color: #ccc;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 4px;
 }
 
 .projectImage {
-    width: 40%;
-    height: 240px;
+    width: 30%;
+    height: 200px;
     border: 1px solid #777;    
     margin-right: 25px;
     border-radius: 10px;
@@ -36,7 +36,7 @@
 }
 
 .projectInfo {
-    display: flex;
+    display: flex;    
 }
 
 .projectCard .button {
@@ -59,11 +59,11 @@
 .projectCard .description {
     display: inline-block;
     padding: 10px;
-    width: 60%;
+    width: 100%;
     text-align: justify;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1137px) {
     .projectCard {
         width: 95%;
         margin: 0 auto;
@@ -76,7 +76,7 @@
     }
 
     .projectImage {
-        width: 60%;
+        width: 50%;
         height: 200px;
         border: 1px solid #777;    
         margin-right: 25px;
@@ -99,7 +99,7 @@
 
     .projectCard h3 {
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 2rem;
         font-weight: 300;
         margin-bottom: 25px;
     }
@@ -108,7 +108,8 @@
 @media only screen and (max-width: 550px) {
     .projectImage {
         width: 80%;
-        height: 180px;        
+        height: 180px;     
+        margin: 0 auto;   
         margin-bottom: 10px;
     }
 

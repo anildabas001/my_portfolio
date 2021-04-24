@@ -10,6 +10,7 @@ import SideBarContext from '../../Context/SideBarContextData';
 import Footer from '../../Components/Footer/Footer';
 
 const Layout = (props) => {
+    document.title = 'Anil Dabas';
     const [layoutState, layoutSetState] = useState({
         showSideBar: false
     });
@@ -20,7 +21,6 @@ const Layout = (props) => {
         });
     }
 
-    console.log(layoutState);
     return(
         <SideBarContext.Provider value={{crossHamBurger: layoutState.showSideBar, sideBarHandler: sideBarHandler}}>
             <Header />

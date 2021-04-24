@@ -4,7 +4,7 @@ import classes from './Button.module.css';
 
 const Button = (props) => {    
     return(
-        <a className={classes.button} href={props.link}>{props.children}</a>
+        <a target={props.target} className={classes.button} download={props.download} href={props.link}>{props.children}</a>
     );
 }
 
